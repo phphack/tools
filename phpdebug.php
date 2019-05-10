@@ -2,8 +2,9 @@
 /**
  * php.ini配置
  * auto_prepend_file = d:/wamp/www/phpdebug.php
+ * error_log = "d:/wamp/logs/php_error.log"
  */
-function debug()
+function dd()
 {
     $argNum = func_num_args();
     $argList = func_get_args();
