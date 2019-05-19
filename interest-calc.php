@@ -31,7 +31,7 @@ $(function () {
     function calc()
     {
         money = $("input[name=money]").val();
-        rate = parseInt($("input[name=rate]").val());
+        rate = parseFloat($("input[name=rate]").val());
         year = $("input[name=year]").val();
         
         content = "";
